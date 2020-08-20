@@ -1,0 +1,9 @@
+main: xyz.ufactions.customrewards.CustomRewards
+name: CustomRewards
+version: 1.0.0
+author: ProFewGames
+description: A fully customizable rewards plugin
+commands:
+  customrewards:
+    description: Main Command
+    aliases: [reward, rewards]

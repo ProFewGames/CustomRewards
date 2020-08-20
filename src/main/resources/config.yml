@@ -1,0 +1,20 @@
+###########################################################################################
+#                                                                                         #
+#                             CustomRewards                                               #
+#                                   By: ProFewGames                                       #
+#                                                                                         #
+###########################################################################################
+
+# This is the name of the inventory where the rewards table will be set
+inventory-name: '&3&lRewards'
+
+# This is the filler type for the GUI
+# Available Types: PANE, RAINBOW, NONE
+inventory-filler: PANE
+
+# If the inventory-filler is set to type PANE then this color will be used
+# to set those glass panes
+inventory-color: AQUA
+
+# This is the set size of the inventory. Maximum 54. Must be a multiple of 9
+inventory-size: 27

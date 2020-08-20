@@ -1,0 +1,43 @@
+###########################################################################################
+#                                      REWARDS TABLE                                      #
+###########################################################################################
+
+rewards:
+  magma:
+    slot: 15
+    permission: 'customrewards.reward.magma'
+    display:
+      material: LAVA_BUCKET
+      glow: true
+      name: '&c&lMAGMA REWARD'
+      lore:
+        - '&7&o* Click To Use *'
+        - '&7&oThis reward has a cooldown of &e5s'
+    commands:
+      - 'say %player% has used the magma reward'
+      - 'give %player% LAVA_BUCKET 1'
+  raider:
+    slot: 13
+    permission: 'customrewards.reward.raider'
+    display:
+      material: TNT
+      amount: 5
+      name: '&6&lRAIDER REWARD'
+      lore:
+        - '&7&o* Click To Use *'
+        - '&7This reward has a cooldown of &e1h'
+    commands:
+      - 'say %player% has used the raider reward'
+      - 'give %player% TNT 1'
+  hades:
+    slot: 11
+    permission: 'customrewards.reward.hades'
+    display:
+      material: FIREBALL
+      name: '&4&lHADES REWARD'
+      lore:
+        - '&7&o* Click To Use *'
+        - '&7This reward has a cooldown of &e3d'
+    commands:
+      - 'say %player% has used the hades reward'
+      - 'give %player% FIREBALL 1'
